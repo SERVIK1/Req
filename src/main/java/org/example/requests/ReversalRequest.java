@@ -3,7 +3,7 @@ package org.example.requests;
 import java.io.Serializable;
 
 public class ReversalRequest extends Request implements Serializable {
-    String content;
+    private String content;
 
     public ReversalRequest(String content) {
         this.content = content;

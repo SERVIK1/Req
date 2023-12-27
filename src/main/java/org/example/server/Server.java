@@ -1,6 +1,8 @@
 package org.example.server;
 
-import java.io.IOException;
+import org.example.server.SocketHandler;
+
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
@@ -23,7 +25,6 @@ public class Server {
                 handlers.add(new SocketHandler(socket)); //создаем для клиента обработчик
             }
         } catch (Exception exception){
-
         }
     }
 

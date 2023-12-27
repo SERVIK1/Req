@@ -16,7 +16,7 @@ public abstract class Request implements Serializable {
     public void onCancel() {
     }
 
-    private long id;
+    private Long id;
 
     public long getId() {
         return id;
